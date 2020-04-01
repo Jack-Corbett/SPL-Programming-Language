@@ -1,0 +1,7 @@
+prev = 0;
+add = 0;
+whileInput {
+	output(prev + add + input[0]);
+	prev = prev + add + input[0];
+	add = add + input[0];
+}

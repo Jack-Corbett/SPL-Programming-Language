@@ -1,0 +1,5 @@
+t = 0;
+whileInput {
+	t = t + input[0];
+	output(t);
+}

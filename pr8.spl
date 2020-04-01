@@ -1,0 +1,5 @@
+prev = 0;
+whileInput {
+	output(input[0] + prev);
+	prev = input[0];
+}
